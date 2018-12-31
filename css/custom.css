@@ -1,0 +1,43 @@
+/*sets background color for header*/
+header{
+    background-color: black;
+}
+
+/*sets h5 header text properties*/
+header nav h5{
+    color: white;
+    font-weight: bold;
+}
+
+/*id selector for div showing message history*/
+#mHistory {
+    height: 150px;
+    padding: 10px;
+    overflow-y: auto;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/*sets margin for clear button */
+div button {
+    margin-top: 5px;
+}
+
+/*id selector for the form inside the div*/
+#divform {
+    margin-top: 15px;
+    padding: 10px;
+}
+
+/*attribute selector for form selecting only the input element with placholder*/
+form [placeholder="Enter text"] {
+    height: 70px;
+    width: 100%;
+    color: black;
+}
+
+footer{
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+}
